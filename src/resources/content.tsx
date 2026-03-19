@@ -2,9 +2,9 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Quách",
-  lastName: "Thư",
-  name: `Quách Thư`,
+  firstName: "Quach",
+  lastName: "Thu",
+  name: `Quach Thu`,
   role: "Business Analyst",
   avatar: "/images/avatar2.jpg",
   email: "quachthianhthu332004@gmail.com",
