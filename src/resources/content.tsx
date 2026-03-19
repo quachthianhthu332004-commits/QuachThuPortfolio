@@ -307,7 +307,6 @@ const work: Work = {
 };
 
 const gallery: Gallery = {
-  display: false,
   path: "/gallery",
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
