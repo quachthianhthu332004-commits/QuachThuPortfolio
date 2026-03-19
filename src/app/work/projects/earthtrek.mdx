@@ -1,0 +1,175 @@
+---
+
+title: "EarthTrek – Trekking Service Platform"
+publishedAt: "2026-03-18"
+summary: "EarthTrek is a centralized digital platform that supports users in planning trekking trips, accessing related services, and managing transactions within a unified system."
+images:
+  - "/images/projects/project-01/BA4E17-N2-NX.jpg"
+link: "https://drive.google.com/drive/folders/1_ahur9DGWC1wCm7W-zsowB4G71S9q4GK?usp=sharing"
+---
+
+## Overview
+
+**Project:** EarthTrek – Trekking Service Platform  
+**Role:** Business Analyst  
+**Team Size:** 3 members  
+**Duration:** 4 months (Dec 2025 – Mar 2026)
+
+EarthTrek is a centralized digital platform that supports users in planning trekking trips, accessing related services, and managing transactions within a unified system.
+
+
+## Problem Statement
+
+### Key Problems
+
+- Trekking activities are fragmented across multiple channels  
+- No centralized platform for trip planning and service management  
+- Difficulty in tracking orders and service status  
+- High entry barrier for new users due to lack of guidance  
+
+### Business Drivers
+
+- Growing demand for trekking but lack of specialized platforms  
+- Shift from ownership → rental behavior  
+- Need to reduce entry barriers for beginners  
+- Increasing demand for safety and guided experiences  
+- Opportunity to build a scalable service ecosystem  
+
+
+## Solution Overview
+
+A centralized platform integrating trip planning, service booking, and transaction management.
+
+### Core Capabilities
+
+- Plan and manage trekking journeys  
+- Rent or purchase equipment  
+- Book tour guides  
+- Manage orders and payments in one system  
+
+### Scope
+
+**In Scope**
+
+- Trip planning & itinerary  
+- Equipment rental & purchase  
+- Tour guide booking  
+- Cart, order & payment  
+- User account  
+
+**Out of Scope**
+
+- Hotel / restaurant booking  
+- Weather prediction  
+- Social features  
+
+
+## Key Features
+
+- Trip planning & itinerary creation  
+- Equipment browsing & management  
+- Tour guide booking  
+- Cart & order lifecycle  
+- Online payment integration  
+- Order tracking & cancellation  
+
+
+## System Design & Process
+
+End-to-end workflows were designed to align business requirements with system behavior.
+
+- User journey: planning → booking → payment → tracking  
+- BPMN (current vs proposed)  
+- Workflow design for cart, order & payment  
+
+These artifacts ensured stakeholder alignment and supported development implementation.
+
+
+### BPMN
+
+**Current Process**  
+![BPMN Current](/images/projects/project-01/Curent-BPMN.jpg)
+🔗 [View Full Diagram](https://drive.google.com/file/d/1t7M2baNHHiivdzDBPe3ulSII_0taHoFf/view?usp=sharing)
+
+**Proposed Process**  
+![BPMN Propose](/images/projects/project-01/Propose-BPMN.jpg)
+🔗 [View Full Diagram](https://drive.google.com/file/d/1Kt1aD5X9E0jRVT5TIRwO3wLZqalQVOfd/view?usp=share_link)
+
+#### BPMN
+![BPMN Propose](/images/projects/project-01/Propose-BPMN.jpg)
+🔗 [View Full Diagram](https://drive.google.com/drive/folders/14ad0JWeBNUdAsXgcd9P0H178lizR4DU3?usp=share_link)
+
+### Use Case Diagram
+
+![UC diagram](/images/projects/project-01/UC-diagram-qlgh.jpg)
+![UC diagram](/images/projects/project-01/uc-diagram-thanhtoan.jpg)
+![UC diagram](/images/projects/project-01/uc-diagram-voucher.jpg)
+🔗 [View Full Diagram](https://drive.google.com/file/d/1s3-jpC4Jr8F9zicySkPcUY4rs-vZfIW3/view?usp=share_link)
+
+
+### Activity Diagram
+
+![BPMN Propose](/images/projects/project-01/activity-diagram-xndh.jpg)
+![BPMN Propose](/images/projects/project-01/activity-diagram-paymentgateway.jpg)
+
+🔗 [View Full Diagram](https://drive.google.com/file/d/1Ak4tbn8HpfR3AxQ6vetNCsRJxNHD6Rm7/view?usp=sharing)
+
+## Requirements
+
+### Functional Requirements
+
+- Trip planning & location search  
+- Product browsing & cart  
+- Tour guide booking & payment  
+- Order tracking & cancellation  
+🔗 [Full](https://docs.google.com/spreadsheets/d/1OQrgtjmHu6Ioj9hnnN1Fq0PxymL3TnNvh4kYjgbtmR8/edit?usp=sharing)
+
+### Non-functional Requirements
+
+- Search response ≤ 3s  
+- Payment processing ≤ 5s  
+- Availability ≥ 99.5%  
+- Support up to 10,000 users  
+🔗 [Full](https://docs.google.com/spreadsheets/d/1OQrgtjmHu6Ioj9hnnN1Fq0PxymL3TnNvh4kYjgbtmR8/edit?usp=sharing)
+
+### Business Rules
+
+- Order cancellation only in valid statuses  
+- Quantity limits per product  
+- Dynamic price calculation  
+- Payment validation before confirmation  
+
+## Prototype
+Interactive prototype used to validate workflows before development.
+
+### Users Journey
+🔗 [Users Journey](https://ai.studio/apps/f2bc6a00-c31f-4468-8349-311438384d76?fullscreenApplet=true)
+
+### Voucher Management (Admin)
+🔗 [Voucher Management (Admin)](https://ai.studio/apps/70258eba-c249-4b1b-8d01-9d76877438e3?fullscreenApplet=true)
+
+
+## Technical Highlight
+
+- Integration with MoMo & VNPay  
+- Payment request & redirect flow  
+- Handle asynchronous IPN callback  
+- Validate transaction before updating order  
+
+Ensures transaction accuracy and system consistency.
+
+
+## Outcome
+
+- Defined structured business requirements  
+- Designed end-to-end workflows  
+- Handled complex edge cases  
+- Strengthened BA ↔ Tech bridge capability  
+
+
+## Documents
+
+- BRD: 
+[Drive link](https://docs.google.com/spreadsheets/d/1lvrOitHnuC5XfnhVK-j2bSMGzbmh59s3ZHndG3AMIw0/edit?usp=share_link)
+- SRS: [Drive link](https://docs.google.com/document/d/1KGalPFt0S_xoMmDLKFOUxMXlNMlBkKnRs_e2VeGGI5g/edit?usp=share_link)
+- Full Project Folder: [Drive link](https://drive.google.com/drive/folders/1_ahur9DGWC1wCm7W-zsowB4G71S9q4GK?usp=sharing)

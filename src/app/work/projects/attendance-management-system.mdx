@@ -1,0 +1,147 @@
+---
+title: "Attendance Management System"
+summary: "A real-world attendance system using QR code and face recognition, deployed for ~1000 users and replacing manual tracking."
+publishedAt: "2026-03-17"
+image: "/images/projects/attendance/cover.jpg"
+
+---
+
+## Overview
+
+**Project:** Church Attendance Management System  
+**Role:** Business Analyst (Volunteer)  
+**Organization:** Thái Lạc Parish  
+**Team Size:** 2 members (1 BA, 1 Developer)  
+**Duration:** 3 months (Oct 2025 – Mar 2026)  
+**Status:** Deployed & actively used  
+
+A web-based system designed to digitize attendance tracking for catechism classes and church activities.  
+It replaces manual processes with QR code and face recognition, enabling fast, accurate, and scalable attendance management.
+
+
+## Problem Statement
+
+### Key Problems
+
+- Attendance recorded manually → slow and error-prone  
+- Difficult to manage large number of students (~1000)  
+- No centralized tracking or reporting  
+- Attendance fraud (students checking in for others)  
+
+### Business Drivers
+
+- Need for scalable digital operations  
+- Reduce workload for catechists  
+- Centralize attendance data  
+- Improve transparency and reduce fraud  
+
+
+## Solution Overview
+
+A centralized web-based system enabling real-time attendance tracking using QR code and face recognition.
+
+### Core Capabilities
+
+- QR code scanning for fast check-in  
+- Face recognition as fallback  
+- Centralized attendance database  
+- Admin dashboard for monitoring  
+
+### Scope
+
+**In Scope:**
+- QR attendance tracking  
+- Face recognition  
+- Student management  
+- Attendance reporting  
+- Role-based access control  
+
+**Out of Scope:**
+- External integrations  
+- Advanced analytics  
+
+
+## Key Features
+
+- QR code attendance scanning  
+- Face recognition fallback  
+- Real-time validation  
+- Student search  
+- Attendance reporting & export  
+- Role-based access control  
+
+
+## System Design & Process
+
+System designed to support real-time attendance under high concurrency conditions.
+
+- Flow: Scan → Validate → Record  
+- Fallback flow: Face recognition  
+- Role-based workflows (Admin, Catechists)  
+
+Process modeling helps identify inefficiencies and ensure scalability.
+
+
+## Diagrams
+
+(Processing)
+
+## Key Use Cases
+
+- QR Attendance Scanning  
+- Face Recognition Attendance  
+- Attendance Validation  
+- Attendance Reporting  
+
+
+## Requirements
+
+### Functional Requirements
+
+- Scan QR and validate identity  
+- Face recognition fallback  
+- Store attendance records  
+- Search student data  
+- Generate reports  
+
+### Non-functional Requirements
+
+- QR scan ≤ 2 seconds  
+- Face recognition ≤ 3 seconds  
+- Support ≥ 100 concurrent scans  
+- Availability ≥ 99%  
+
+
+## Business Rules
+
+- Each student can check-in only once per session  
+- QR code must be unique  
+- Attendance must match valid student ID  
+- Face must match stored data before confirmation  
+
+
+## Prototype
+
+(Processing)  
+
+
+## Technical Highlight
+
+- QR code generation & scanning  
+- Face recognition integration  
+- Concurrent request handling  
+- Real-time data consistency  
+
+Ensures system accuracy and performance under real-world conditions.
+
+
+## Outcome
+
+- Significantly reduced attendance time  
+- Eliminated attendance fraud  
+- Centralized and structured data management  
+- Successfully deployed for ~1000 users  
+
+
+## Documents 
+(Processing)
