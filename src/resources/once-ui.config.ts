@@ -1,3 +1,9 @@
+// Import and set font for each variant
+import {
+  Geist,
+  Geist_Mono,
+} from 'next/font/google';
+
 import {
   DataStyleConfig,
   DisplayConfig,
@@ -10,8 +16,9 @@ import {
   SchemaConfig,
   SocialSharingConfig,
   StyleConfig,
-} from "@/types";
-import { home } from "./index";
+} from '@/types';
+
+import { home } from './index';
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
 const baseURL: string = "https://demo.magic-portfolio.com";
@@ -20,8 +27,6 @@ const routes: RoutesConfig = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": true,
-  "/gallery": true,
 };
 
 const display: DisplayConfig = {
@@ -35,10 +40,6 @@ const display: DisplayConfig = {
 const protectedRoutes: ProtectedRoutesConfig = {
   "/work/automate-design-handovers-with-a-figma-to-code-pipeline": true,
 };
-
-// Import and set font for each variant
-import { Geist } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
 
 const heading = Geist({
   variable: "--font-heading",
@@ -217,16 +218,16 @@ const socialSharing: SocialSharingConfig = {
 };
 
 export {
-  display,
-  mailchimp,
-  routes,
-  protectedRoutes,
   baseURL,
-  fonts,
-  style,
-  schema,
-  sameAs,
-  socialSharing,
-  effects,
   dataStyle,
+  display,
+  effects,
+  fonts,
+  mailchimp,
+  protectedRoutes,
+  routes,
+  sameAs,
+  schema,
+  socialSharing,
+  style,
 };

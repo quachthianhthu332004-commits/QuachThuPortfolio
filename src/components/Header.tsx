@@ -1,13 +1,29 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import {
+  useEffect,
+  useState,
+} from 'react';
 
-import { Fade, Flex, Line, Row, ToggleButton } from "@once-ui-system/core";
+import { usePathname } from 'next/navigation';
 
-import { routes, display, person, about, blog, work, gallery } from "@/resources";
-import { ThemeToggle } from "./ThemeToggle";
-import styles from "./Header.module.scss";
+import {
+  about,
+  display,
+  person,
+  routes,
+  work,
+} from '@/resources';
+import {
+  Fade,
+  Flex,
+  Line,
+  Row,
+  ToggleButton,
+} from '@once-ui-system/core';
+
+import styles from './Header.module.scss';
+import { ThemeToggle } from './ThemeToggle';
 
 type TimeDisplayProps = {
   timeZone: string;
