@@ -113,7 +113,7 @@ const about: About = {
         <p>
           You can view more details about my experience here:{" "}
           <a
-            href="https://drive.google.com/drive/folders/1P-Q8VqGg5wwTxtvPL486X-qN2N57PWOn?usp=sharing"
+            href="https://drive.google.com/uc?export=download&id=1fax2nSBnPeZ5DEWM5dQ2yrGM8ekfiN17"
             target="_blank"
             rel="noopener noreferrer"
           >
