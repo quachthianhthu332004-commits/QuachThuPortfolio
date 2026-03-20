@@ -1,20 +1,22 @@
+import { Projects } from '@/components/work/Projects';
 import {
-  Heading,
-  Text,
-  Button,
+  about,
+  baseURL,
+  home,
+  person,
+} from '@/resources';
+import {
   Avatar,
-  RevealFx,
-  Column,
   Badge,
+  Button,
+  Column,
+  Heading,
+  Meta,
+  RevealFx,
   Row,
   Schema,
-  Meta,
-  Line,
-} from "@once-ui-system/core";
-import { home, about, person, baseURL, routes } from "@/resources";
-import { Mailchimp } from "@/components";
-import { Projects } from "@/components/work/Projects";
-import { Posts } from "@/components/blog/Posts";
+  Text,
+} from '@once-ui-system/core';
 
 export async function generateMetadata() {
   return Meta.generate({
