@@ -1,0 +1,238 @@
+---
+title: "APPLICANT TRACKING SYSTEM (ATS)"
+publishedAt: "2026-03-17T12:00:00Z"
+summary: "An AI-powered Applicant Tracking System (ATS) streamlines recruitment by centralizing candidate management, automating CV parsing, and supporting efficient hiring workflows within a unified platform."
+images:
+  - "/images/projects/gap-global/cover.png"
+link: "https://drive.google.com/drive/folders/1fe2RKHf811b4f4cwkHDaw5LxFIjlOzhp?usp=sharing"
+---
+
+## Overview
+
+**Project:** APPLICANT TRACKING SYSTEM (ATS)  
+**Role:** Business Analyst  
+**Team Size:** 3 members  
+**Duration:** 3 months (May 2026 – July 2026)
+
+An AI-powered Applicant Tracking System (ATS) streamlines recruitment by centralizing candidate management, automating CV parsing, and supporting efficient hiring workflows within a unified platform.
+
+
+## My Contribution
+
+- Gathered and analyzed business requirements through stakeholder discussions.
+- Authored Business Requirements Document (BRD) and Functional Requirements Specification (FRS) for core recruitment modules.
+- Defined business rules, functional requirements, and acceptance criteria for User Management, CV Upload & AI Parsing, Candidate Search, and Recruitment Pipeline.
+- Supported process modeling using BPMN, Use Case, and Sequence Diagrams.
+- Reviewed and validated high-fidelity prototypes against documented requirements.
+- Collaborated with teammates during requirement clarification and functional validation.
+
+
+## Business Context
+
+### Problem Statement
+
+- Candidate data was scattered across emails, spreadsheets, and documents, making information difficult to manage.
+- Manual CV screening and data entry increased administrative effort and recruitment time.
+- Recruiters lacked an efficient way to search, filter, and retrieve candidate profiles.
+- Candidate status tracking was inconsistent, limiting visibility throughout the recruitment process.
+- The existing workflow was difficult to scale as recruitment volume increased.
+
+### Business Drivers
+
+To address these challenges, the organization aimed to develop a Minimum Viable Product (MVP) Applicant Tracking System that would standardize and streamline the recruitment workflow.
+
+The primary business objectives included:
+
+- Centralize candidate information into a single recruitment platform.
+- Automate CV parsing to reduce manual data entry and improve screening efficiency.
+- Enable keyword-based candidate search for faster profile retrieval and filtering.
+- Standardize recruitment pipeline management by tracking candidate status throughout the hiring process.
+- Improve collaboration among HR, HR Managers, Hiring Managers, and Administrators through role-based access control.
+- Establish a scalable foundation for future enhancements such as AI-powered candidate ranking, email automation, reporting dashboards, and Talent Pool management.
+
+
+## Solution Overview
+
+The Applicant Tracking System (ATS) is an AI-assisted recruitment platform designed to centralize candidate management and streamline the hiring process. The system automates CV parsing, enables keyword-based candidate search, and provides a structured recruitment pipeline, allowing HR teams to manage recruitment activities more efficiently within a single platform.
+
+As an MVP solution, the project focuses on delivering essential recruitment capabilities while establishing a scalable foundation for future enhancements.
+
+### Core Capabilities
+
+- Upload and manage CVs through single or bulk uploads with file validation.
+- Automatically extract candidate information using AI-powered CV parsing.
+- Manage candidate profiles with centralized storage and editing capabilities.
+- Search and filter candidates using keywords and profile attributes.
+- Track recruitment progress through a structured hiring pipeline.
+- Manage user accounts and permissions with role-based access control (RBAC).
+
+### Scope
+
+**In Scope**
+
+- Trip planning & itinerary (CV upload - single & bulk)
+- AI-assisted CV parsing
+- Candidate profile management
+- Keyword search & filtering
+- Recruitment pipeline management
+- User account & role management
+- Dashboard overview
+
+**Out of Scope**
+
+- Job posting platform integration
+- Automated candidate email notifications
+- Talent Pool management
+- Advanced reporting & analytics
+- AI-powered candidate ranking
+
+
+## Key Features
+
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '16px', margin: '20px 0' }}>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>1. Authentication</h4>
+    <p style={{ marginBottom: 0 }}>Secure user authentication with login, logout, password recovery, and role-based access to ensure authorized system usage.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>2. User & Role Management</h4>
+    <p style={{ marginBottom: 0 }}>Create, manage, and assign user roles while controlling system permissions for HR teams and administrators.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>3. Recruitment Campaign Management</h4>
+    <p style={{ marginBottom: 0 }}>Create and manage recruitment campaigns to organize hiring activities across multiple job positions.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>4. Job Position Management</h4>
+    <p style={{ marginBottom: 0 }}>Manage job openings, job descriptions, and recruitment status throughout the hiring lifecycle.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>5. CV Upload & AI Parsing</h4>
+    <p style={{ marginBottom: 0 }}>Upload single or multiple CVs and automatically extract candidate information using AI-powered CV parsing.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>6. Candidate Management</h4>
+    <p style={{ marginBottom: 0 }}>Maintain centralized candidate profiles with capabilities to view, edit, update, and manage recruitment information.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>7. Candidate Search & Filtering</h4>
+    <p style={{ marginBottom: 0 }}>Quickly search and filter candidate profiles using keywords, skills, experience, and other recruitment attributes.</p>
+  </div>
+  <div style={{ padding: '16px', border: '1px solid #444', borderRadius: '8px' }}>
+    <h4 style={{ marginTop: 0 }}>8. Recruitment Pipeline</h4>
+    <p style={{ marginBottom: 0 }}>Track candidate progress through each recruitment stage using a structured hiring pipeline.</p>
+  </div>
+</div>
+
+
+## System Design & Process
+
+### BPMN
+
+**As-Is Process**  
+![As-Is BPMN](/images/projects/gap-global/as-is-bpmn.png)  
+🔗 [View Full Diagram](https://drive.google.com/file/d/1jnVCTET1W37CAUZpYvp_wc2pZLAqcTwa/view?usp=sharing)
+
+**To-Be Process**  
+![To-Be BPMN](/images/projects/gap-global/to-be-bpmn.png)  
+🔗 [View Full Diagram](https://drive.google.com/file/d/17bEUhNvMP8OiZU8tA5-KL8NlO65py4fn/view?usp=sharing)
+
+
+### Use Case Diagram
+
+![UC Diagram](/images/projects/gap-global/uc-diagram.png)
+🔗 [View Full Diagram](https://drive.google.com/drive/folders/1fe2RKHf811b4f4cwkHDaw5LxFIjlOzhp?usp=sharing) 
+
+
+### Sequence Diagram
+
+The following sequence diagrams illustrate key system interactions for critical business processes. These diagrams were created to define message flows between users, the system, AI services, and supporting components, ensuring a clear understanding of system behavior before implementation.
+
+**Authentication**  
+![Authentication Sequence Diagram](/images/projects/gap-global/auth-sequence.png)  
+
+**CV Upload & AI Parsing**  
+![CV Upload & AI Parsing Sequence Diagram](/images/projects/gap-global/cv-parsing-sequence.png)  
+
+**Recruitment Pipeline**  
+![Recruitment Pipeline Sequence Diagram](/images/projects/gap-global/pipeline-sequence.png)
+
+🔗 [View Full Sequence Diagrams](https://drive.google.com/drive/folders/1_3o8c8U62r0GltmQR8g9xFilZCb7-0xs?usp=sharing)
+
+
+## Requirements
+
+### Functional Requirements
+
+- Support single and bulk CV uploads in PDF, DOC, and DOCX formats.
+- Validate uploaded CV files with a maximum file size of 5 MB before processing.
+- Automatically extract at least 5 candidate attributes, including Full Name, Email, Phone Number, Years of Experience, Skills, and Applied Position.
+- Detect duplicate candidates based on email or phone number before creating a new profile.
+- Store original CV files on Cloud Storage while saving metadata and parsed information in the database.
+- Manage candidate progression through five recruitment stages: **New → Screening → Interview → Hired → Rejected**.
+- Support role-based access for HR, HR Manager, Admin, and Hiring Manager across system modules.
+
+### Business Rules
+
+- Only authenticated users can access the system based on assigned roles and permissions.
+- Recruiters must select an active recruitment campaign before uploading a CV.
+- The system only accepts PDF, DOC, and DOCX files with a maximum size of 5 MB.
+- Duplicate detection is performed using the candidate's email or phone number before creating a new profile.
+- Recruitment campaigns in **Closed** status cannot receive additional CV submissions.
+- Candidate information extracted by AI can be reviewed and updated manually before being finalized in the system.
+
+### Non-functional Requirements
+
+- **Security:** Candidate information must be securely stored and accessible only to authorized users.
+- **Performance:** Candidate search results must be returned within 3 seconds for MVP datasets.
+- **Availability:** Core system functions must operate reliably during MVP demonstrations and testing.
+- **Scalability:** The system should support future integration with Email Automation and Analytics Dashboard.
+
+
+## Prototype
+
+**1. Login**  
+![Login](/images/projects/gap-global/prototype-1.png)  
+
+**2. Dashboard**  
+![Dashboard](/images/projects/gap-global/prototype-2.png)  
+
+**3. CV Upload & AI Parsing**  
+![CV Upload & AI Parsing](/images/projects/gap-global/prototype-3.png)  
+
+**4. Candidate Management**  
+![Candidate Management](/images/projects/gap-global/prototype-4.png)  
+
+**5. Recruitment Pipeline**  
+![Recruitment Pipeline](/images/projects/gap-global/prototype-5.png)
+
+🔗 [View Live System (Prototype)](https://gap-ats-sja5.vercel.app/login)
+
+
+## Solution Highlights
+
+- AI-assisted CV Parsing with automated candidate information extraction.
+- Support for single and bulk CV uploads with file validation.
+- Keyword-based candidate search for faster profile screening.
+- Visual recruitment pipeline with 5 hiring stages (New, Screening, Interview, Hired, Rejected).
+- Role-based access control (RBAC) for HR, HR Manager, Hiring Manager, and Administrator.
+- Cloud-based CV storage integrated with AI parsing services.
+
+
+## Outcome
+
+- Successfully completed an AI-powered ATS MVP within the project timeline.
+- Produced comprehensive Business Analysis deliverables, including BRD, FRS, BPMN, Use Cases, Activity Diagrams, Sequence Diagrams, Business Rules, and NFRs.
+- Delivered a high-fidelity interactive prototype covering the system's core recruitment workflow.
+- Presented the proposed solution and documentation to stakeholders for review and validation.
+
+
+## Documents
+
+- **BRD:** 🔗 [Drive link](https://docs.google.com/document/d/1KzoJvgv9bH7hN1Ek6sCkK29dxCb328fVXFk1LsK3IE4/edit?usp=sharing)
+- **FRS:** 🔗 [Drive link](https://docs.google.com/document/d/17_A-owCeB0ForuP9aTqd7ZsTzbtMRsbVffgIn3-ypWs/edit?usp=sharing)
+- **BPMN:** 🔗 [Drive link](https://drive.google.com/drive/folders/1Sy0_UMouhgfpdytIMDV1o3kM2uyTQG7l?usp=sharing)
+- **Use Case Specifications:** 🔗 [Drive link](https://docs.google.com/document/d/1FGAA-uyhiddv-I02e9DLi5S4QmcZhgjAyvF6j0dU10w/edit?usp=sharing)
+- **Sequence Diagrams:** 🔗 [Drive link](https://drive.google.com/drive/folders/1_3o8c8U62r0GltmQR8g9xFilZCb7-0xs?usp=sharing)
+- **Prototype:** 🔗 [Live Link](https://gap-ats-sja5.vercel.app/login)
+- **Full Project Folder:** 🔗 [Drive link](https://drive.google.com/drive/folders/1fe2RKHf811b4f4cwkHDaw5LxFIjlOzhp?usp=sharing)
